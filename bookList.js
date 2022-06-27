@@ -30,5 +30,25 @@ btn.addEventListener('click', (e) => {
     }
 });
 
+function updateUI() {
+    bookAdd.innerHTML = '';
+    console.log(books);
+    books.forEach((data, index) => {
+        const classBook = document.createElement('div');
+        classBook.classList.add('class-book');
+        const par = document.createElement('p');
+        par.textContent = `${data.title} By ${data.author}`;
+        const btnRemove = document.createElement('button');
+        btnRemove.textContent = `Remove`;
+        btnRemove.addEventListener('click', removeBook.bind(index));
+        classBook.appendChild(par);
+        classBook.appendChild(btnRemove);
+        bookAdd.appendChild(classBook);
+    });
+}
 
-
+function removeBook() {
+    books.splice(this, 1);
+    uploadData(books);
+    downloadData();
+}
