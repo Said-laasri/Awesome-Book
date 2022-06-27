@@ -11,7 +11,7 @@ let books;
 function uploadData(book) {
   localStorage.setItem('bookInfo', JSON.stringify(book));
 }
-
+/* eslint-disable no-use-before-define */
 function downloadData() {
   books = JSON.parse(localStorage.getItem('bookInfo'));
   updateUI();
@@ -39,9 +39,11 @@ function updateUI() {
     par.textContent = `${data.title} By ${data.author}`;
     const btnRemove = document.createElement('button');
     btnRemove.textContent = 'Remove';
+    const line = document.createElement('hr');
     btnRemove.addEventListener('click', removeBook.bind(index));
     classBook.appendChild(par);
     classBook.appendChild(btnRemove);
+    classBook.appendChild(line);
     bookAdd.appendChild(classBook);
   });
 }
