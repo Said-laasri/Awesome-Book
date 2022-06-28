@@ -56,9 +56,12 @@ button {
   width: fit-content;
   padding: 10px 16px;
   background-color: rgb(153, 155, 255);
-  color: rgb(15, 15, 15);   
+  color: rgb(15, 15, 15);
   border: 2px solid rgb(29, 26, 26);
-  margin-left: 440px;
+}
+
+#addButton {
+margin-left: 440px;
 }
 
 .book-info-conatiner > button {
