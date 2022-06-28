@@ -11,7 +11,7 @@ body {
 header {
   background-color: rgb(239, 239, 245);
   display: flex;
-  color: rgb(15, 15, 15);   
+  color: rgb(15, 15, 15);
   font-size: 20px;
   font-weight: 700;
   align-self: center;
@@ -24,7 +24,7 @@ header {
   width: 100%;
   display: flex;
   flex-direction: column;
-  height: fit-content;
+  height: max-content;
   margin: auto;
   padding: 2% 10%;
   background-color: rgb(239, 239, 245);
@@ -52,6 +52,15 @@ header {
   background-color: rgb(201, 202, 241);
 }
 
+button {
+  width: fit-content;
+  padding: 10px 16px;
+  background-color: rgb(153, 155, 255);
+  color: rgb(15, 15, 15);   
+  border: 2px solid rgb(29, 26, 26);
+  margin-left: 440px;
+}
+
 .book-info-conatiner > button {
   width: fit-content;
   padding: 5px 5px;
@@ -65,22 +74,12 @@ header {
   gap: 15px;
 }
 
-button {
-  width: fit-content;
-  padding: 10px 16px;
-  background-color: rgb(153, 155, 255);
-  color: rgb(15, 15, 15);   
-  border: 2px solid rgb(29, 26, 26);
-  margin-left: 440px;
-}
-
 button:hover {
   background-color: rgb(80, 81, 126);
   border: none;
 }
 
 form {
-  width: fit-content;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -108,7 +107,7 @@ form > h2 {
   border: 2px solid rgb(20, 17, 17);
   padding: 10px 16px;
   font-size: 16px;
-  margin: auto;  
+  margin: auto;
 }
 
 ::placeholder {
