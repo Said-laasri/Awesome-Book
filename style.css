@@ -66,7 +66,7 @@ hr {
   color: rgb(247, 247, 247);
 }
 
-.book-info-conatiner:nth-child(odd){
+.book-info-conatiner:nth-child(odd) {
   background-color: rgb(168, 169, 247);
 }
 
