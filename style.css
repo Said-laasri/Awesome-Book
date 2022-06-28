@@ -51,7 +51,6 @@ button:hover {
 hr {
   background: #fff;
   width: 100%;
-
 }
 
 .input {
@@ -65,4 +64,29 @@ hr {
 
 ::placeholder {
   color: rgb(247, 247, 247);
+}
+
+.book-info-conatiner:nth-child(odd){
+  background-color: rgb(168, 169, 247);
+}
+
+.book-info-conatiner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+  gap: 20px;
+  border: 1px solid #fafafa;
+}
+
+.book-info-conatiner > button {
+  width: 60%;
+}
+
+.textContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }

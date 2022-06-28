@@ -49,9 +49,9 @@ class Library {
     bookContainer.classList.add('book-info-conatiner');
     bookContainer.append(textContainer, removeBtn);
     textContainer.append(bookTitle, by, bookAuthor);
-    textContainer.classList.add('text-con');
-    bookTitle.classList.add('title-book');
-    bookAuthor.classList.add('author-book');
+    textContainer.classList.add('textContent');
+    bookTitle.classList.add('titleBook');
+    bookAuthor.classList.add('authorBook');
     removeBtn.classList.add('remove-btn');
     removeBtn.textContent = 'Remove';
 
