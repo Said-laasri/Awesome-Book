@@ -63,16 +63,16 @@ class Library {
 
   addBook() {
     this.addBtn.addEventListener('click', (e) => {
+      e.preventDefault();
       if (this.titleInput.value === '' || this.authorInput.value === '') {
-        e.preventDefault();
-      } else {
-        const book = new BookDetails(this.titleInput.value, this.authorInput.value);
-        this.booksData.push(book);
-        this.createElement(book);
-        this.storeBooksInLocal();
-        this.titleInput.value = '';
-        this.authorInput.value = '';
+        return;
       }
+      const book = new BookDetails(this.titleInput.value, this.authorInput.value);
+      this.booksData.push(book);
+      this.createElement(book);
+      this.storeBooksInLocal();
+      this.titleInput.value = '';
+      this.authorInput.value = '';
     });
   }
 

@@ -10,22 +10,57 @@
 </head>
 
 <body>
-    <header>
-        <h1 class="heading">All awsome books</h1>
-    </header>
-    <section class="displayBook">
-    <div class="bookList"></div>    
-</section>
-    <form>
-        <h2>Add a new book</h2>
+    <nav class="nav-bar">
         <div>
-            <input class="input" id="title" name="title" type="text" placeholder="Title">
-        </div> <br> 
+            <p>Awsome Books</p>
+        </div>
+        <div class="nav-pages">
+            <a class="firstPage" href="#">List</a>
+            <a class="secondePage" href="#">Add new</a>
+            <a class="tirthPage" href="#">Contact</a>
+        </div>
+    </nav>
+    <div class="date"><iframe src="https://free.timeanddate.com/clock/i8e5ea29/n243/fs16/ftbiu/tt0/tw0/tm1/ts1/tb2"></iframe>
+    </div>
+    <section class="bookDisplay">
+        <div class="header">
+            <h1>All awsome books</h1>
+        </div>
+        <div class="displayBook">
+        <div class="bookList"></div>    
+        </div>
+    </section>
+
+    <section class="bookAdding">
+        <form>
+            <h2>Add a new book</h2>
+            <div>
+                <input class="input" id="title" name="title" type="text" placeholder="Title">
+            </div> <br> 
+            <div>
+                <input class="input" id="author" name="author" type="text" placeholder="Author">
+            </div> <br>
+                <button id="addButton" class="submit" type="submit">Add</button>
+         </form>
+    </section>
+
+    <section class="contact">
+        <h2>Contact information</h2>
         <div>
-            <input class="input" id="author" name="author" type="text" placeholder="Author">
-        </div> <br>
-            <button id="addButton" class="submit" type="submit">Add</button>
-    </form>
+        <p>Do you hve any question or you just wana say *Hello*?</p>
+        <p>You can reach out to us!</p>
+        </div>
+        <ul>
+            <li>Our e-mail: mail@mail.com</li>
+            <li>Our phone number: 065145369515 </li>
+            <li>Our adress: StreetHollyoud 22.03 City.USA</li>
+        </ul>
+    </section>
+    
+    <footer class="copyright">
+        <p>copyright</p>
+    </footer>
+    <script src="navigation.js"></script>
     <script src="bookList.js"></script>
 </body>
 
