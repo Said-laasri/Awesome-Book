@@ -132,7 +132,7 @@ form > h2 {
   padding: 14px;
   align-items: center;
   margin: 5px;
-  border:  2px solid #141313;
+  border: 2px solid #141313;
   background-color: rgb(224, 227, 230);
 }
 
@@ -156,7 +156,7 @@ form > h2 {
 
 .nav-bar > div > a:hover {
   background-color: rgb(176, 233, 214);
-  border-bottom: 2px solid #141313
+  border-bottom: 2px solid #141313;
 }
 
 .nav-bar > div > p {
@@ -177,7 +177,7 @@ form > h2 {
   padding: 14px;
   align-items: flex-start;
   margin: 5px;
-  border:  2px solid #141313;
+  border: 2px solid #141313;
   background-color: rgb(224, 227, 230);
 }
 
