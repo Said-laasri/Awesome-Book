@@ -32,7 +32,7 @@ JavaScript
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link]https://said-laasri.github.io/Awsome-Book/)
+- [Live Demo Link](https://said-laasri.github.io/Awsome-Book/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
