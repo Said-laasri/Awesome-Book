@@ -1,58 +1,86 @@
-# Project Name
+# 📗 Table of Contents
 
- Awsome-Book
+- [📗 Table of Contents](#-table-of-contents)
+- [📖 Exotic Rentals ](#-exotic-rentals--)
+  - [Backend](#backend)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+  - [🚀 Live Demo ](#-live-demo-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Install](#install)
+    - [Usage](#usage)
+    - [Run tests](#run-tests)
+    - [Deployment](#deployment)
+  - [👥 Authors ](#-authors-)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [📝 License ](#-license-)
 
-# Description the project.
+# 📖 Awsome book <a name="about-project"></a>
 
-Awsome books website is a page that contains information about list of books with the title and author names .
+Awsome books website is a page that contains information about list of books with the title and author names.
 
+## 🛠 Built With <a name="built-with"></a>
+HTML 
+Css
+JavaScript
 
-The pull request is opened to get a review on the project and check for any required changes.
+## 🚀 Live Demo <a name="live-demo"></a>
 
-## Built With
+- [Live Demo Link]https://said-laasri.github.io/Awsome-Book/)
 
-- html/css/js.
-- following linters standards.
-- following github flows standards.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## 💻 Getting Started <a name="getting-started"></a>
 
-## Getting Started
+To get a local copy up and running, follow these steps.
 
-**This web page is books site with my List of books title and authors.**
+### Prerequisites
 
-**Awsome boos project  works on mobile and disktop using @Media queries .**
-****************************************************
-To get a local copy up and running follow these simple example steps.
-follow>>>>>>>>>
-
+In order to run this project you need:
 
 ### Setup
 
-to use the project Awsome Books please follow :
- >Open GitHub and go to my GitHub repository name: Awsome books.to clone.
- >Click “Code” and copy the given URL.
- >click code and copy the URL.
+Clone this repository to your desired folder:
 
- >click code and copy the URL.
+```sh
+  cd my-folder
+  git clone git@github.com
+```
 
- >Open “Git Bash” and change the current working directory to the location where you want the cloned directory.
+### Install
 
- >Type git clone in the terminal, paste the URL you copied earlier, and press “enter” to create your local clone.
+Install this project with:
 
- >Syntax:
-
-  $ git clone {repository URL}
+```sh
+  cd nicholas-portfolio
+  yarn install
+```
 
 ### Usage
 
->open your directory Awsome Books/
-to run the file :
-_use vs-code or any IDE  to view line code .
+To run the project, execute the following command:
 
-_use you preferd browser to run the file .html to get project website.
+```sh
+  npm run dev
+```
 
-### LIVE DEMO
-CHECK THIS LINK [Awsome Books](https://said-laasri.github.io/Awsome-Book/)
+### Deployment
+
+You can deploy this project using:
+
+```sh
+  git push main
+```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 👥 Author <a name="author"></a>
 
 ## Authors
 
@@ -62,28 +90,38 @@ CHECK THIS LINK [Awsome Books](https://said-laasri.github.io/Awsome-Book/)
 - Twitter: [@saidlaasr](https://twitter.com/saidlaasr)
 - LinkedIn: [SAID LAASRI](https://www.linkedin.com/in/said-laasri-8a4367172/)
 
+## 🔭 Future Features <a name="future-features"></a>
 
-👤 **Ahmed Zaki Yousufi**
-- GitHub: [@Ahmed Zaki Yousufi](https://github.com/zakiyousufi)
-- LinkedIn: [Ahmed Zaki Yousufi](https://www.linkedin.com/in/ahmadzaki-yousufi-055214217/)
+- [ ] **I will add a feature for a new project.**
+- [ ] **I will add some animations.**
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🤝 Contributing
+## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
-thanks:
 
+Feel free to check the [issues page](../../issues/).
 
-## Show your support
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Give a ⭐️ if you like this project!
+## ⭐️ Show your support <a name="support"></a>
 
-## Acknowledgments
+If you like this project consider giving it a star ⭐️.
 
-- Microverse
-- Inspiration
-- etc
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 📝 License
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-This project is [MIT](./MIT.md) licensed.
+I would like to thank Microverse for giving me the opportunity to work on this project.
+
+- LazyCoders
+- Coding Partners
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
