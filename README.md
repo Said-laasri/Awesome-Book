@@ -21,9 +21,9 @@
   - [🙏 Acknowledgments ](#-acknowledgments-)
   - [📝 License ](#-license-)
 
-# 📖 Awsome book <a name="about-project"></a>
+# 📖 Awesome-Book <a name="about-project"></a>
 
-Awsome books website is a page that contains information about list of books with the title and author names.
+Awesome-Book website is a page that contains information about list of books with the title and author names.
 
 ## 🛠 Built With <a name="built-with"></a>
 HTML 
